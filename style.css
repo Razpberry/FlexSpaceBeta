@@ -1,3 +1,15 @@
 body {
   background-image: linear-gradient(to left, mediumseagreen, lightseagreen);
 }
+
+.row {
+  flex-direction: row;
+}
+
+.content {
+  flex: 1;
+}
+
+.classSelector {
+  flex: 1.5;
+}
