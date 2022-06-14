@@ -1,4 +1,6 @@
-var day1 = [
+const p = [530, 580, 630, 650, 700, 730, 761, 811, 861, 911];
+
+const day1 = [
   "Math", // 8:50 - 9:39
   "Math", // 9:40 - 10:29
   "Break", // 10:30 - 10:49
@@ -11,7 +13,7 @@ var day1 = [
   "School Ends",
 ];
 
-var day2 = [
+const day2 = [
   "Math", // 8:50 - 9:39
   "Math/Gym", // 9:40 - 10:29
   "Break", // 10:30 - 10:49
@@ -24,7 +26,7 @@ var day2 = [
   "School Ends",
 ];
 
-var day3 = [
+const day3 = [
   "Math", // 8:50 - 9:39
   "Math", // 9:40 - 10:29
   "Break", // 10:30 - 10:49
@@ -37,7 +39,7 @@ var day3 = [
   "School Ends",
 ];
 
-var day4 = [
+const day4 = [
   "Math", // 8:50 - 9:39
   "Math", // 9:40 - 10:29
   "Break", // 10:30 - 10:49
@@ -50,7 +52,7 @@ var day4 = [
   "School Ends",
 ];
 
-var day5 = [
+const day5 = [
   "Math", // 8:50 - 9:39
   "Math", // 9:40 - 10:29
   "Break", // 10:30 - 10:49
@@ -63,9 +65,22 @@ var day5 = [
   "School Ends",
 ];
 
-var days = [day1, day2, day3, day4, day5];
-var daysnum = [1, 2, 3, 4, 5];
-var weekdays = [
+const dayTimes = [
+  "8:50",
+  "9:40",
+  "10:30",
+  "10:50",
+  "11:40",
+  "12:10",
+  "12:40",
+  "1:31",
+  "2:21",
+  "3:11",
+];
+
+const days = [day1, day2, day3, day4, day5];
+const daysnum = [1, 2, 3, 4, 5];
+const weekdays = [
   "Sunday",
   "Monday",
   "Tuesday",
