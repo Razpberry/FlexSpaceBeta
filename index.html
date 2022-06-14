@@ -45,23 +45,45 @@
           </li>
         </ul>
       </div>
-      <div class="content">
-        <h1 id="dateandtime"></h1>
-        <p id="currentday"></p>
-        <p id="day"></p>
-        <p id="currentclass"></p>
-        <p id="class"></p>
-        <div class="next">
-          <p id="nextclasswhen"></p>
-          <p id="next3classes"></p>
-          <p id="nextclass1"></p>
-          <p id="nextclass2"></p>
-          <p id="nextclass3"></p>
+      <div class="row">
+        <div class="content">
+          <h1 id="dateandtime"></h1>
+          <p id="currentday"></p>
+          <p id="day"></p>
+          <p id="currentclass"></p>
+          <p id="class"></p>
+          <div class="next">
+            <p id="nextclasswhen"></p>
+            <p id="next3classes"></p>
+            <p id="nextclass1"></p>
+            <p id="nextclass2"></p>
+            <p id="nextclass3"></p>
+          </div>
+          <button class="btn btn-primary" type="button" id="showAllClasses">
+            Show Today's Schedule
+          </button>
+          <p id="showAllClassesText"></p>
         </div>
-        <button class="btn btn-primary" type="button" id="showAllClasses">
-          Show All Classes For Today
-        </button>
-        <p id="showAllClassesText"></p>
+        <div class="classSelector">
+          <p>Find when the next specific class is</p>
+          <select
+            id="nextSpcfClass"
+            class="form-select"
+            aria-label="Find Next Specific Class"
+          >
+            <option selected>---</option>
+            <option value="1">Math</option>
+            <option value="2">English</option>
+            <option value="3">History</option>
+            <option value="4">Science</option>
+            <option value="5">Gym</option>
+            <option value="6">French</option>
+            <option value="7">Art</option>
+            <option value="8">Health</option>
+            <option value="9">Music</option>
+          </select>
+          <p id="whenNextSpcfClass"></p>
+        </div>
       </div>
     </div>
     <script src="lists.js"></script>
