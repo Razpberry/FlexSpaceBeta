@@ -127,7 +127,6 @@ function myTimer() {
 
   var nextSpcfClassNum = document.getElementById("nextSpcfClass").value;
   var nextSpcfClass, nextSpcfClassWhen;
-  console.log(curdaynum);
   if (nextSpcfClassNum != "---") {
     switch (nextSpcfClassNum) {
       case "1":
